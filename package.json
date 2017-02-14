@@ -1,0 +1,37 @@
+{
+  "name": "mean-stack-hero",
+  "version": "1.0.0",
+  "description": "MEAN stack application built through: Full Stack Training's MEAN Stack course.",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "mongodb": "^2.1.7",
+    "mongoose": "^4.4.8",
+    "angular": "^1.5.6",
+    "angular-route": "^1.5.6",
+        "angular-jwt": "0.1.9",
+        "bcrypt-nodejs": "0.0.3",
+        "jsonwebtoken": "7.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikieseven/ubiquitous-waddle.git"
+  },
+  "author": "Tamas Piros",
+  "license": "ISC",
+  "bugs": "",
+  "homepage": "",
+  "keywords": [
+    "API",
+    "MEAN",
+    "routes",
+    "Angular"
+  ]
+}
