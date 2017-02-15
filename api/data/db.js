@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
-var dburl = 'mongodb://127.0.0.1:27017/meanhotel';
+var dburl = 'mongodb:///opt/bitnami/mongod/tmp/mongodb-27017.sock/meanhotel';
+//var dburl = 'mongodb://127.0.0.1:27017/meanhotel';
 //var dburl = 'mongodb://localhost:27017/meanhotel';
 //var dburl = 'mongodb://root:k6i2vLcngVyu@127.0.0.1:27017/meanhotel';
 //https://docs.mongodb.com/manual/reference/connection-string/
